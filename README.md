@@ -289,6 +289,7 @@ You can set an event to be called when a member levels up. Using the event is co
 * `data` (`MemberData`) The database information for that member
 
 ```py
+from discordLevelingSystem import ... MemberData # import this file
 bot = commands.Bot(...)
 lvl = DiscordLevelingSystem(..., bot=bot) # your bot instance variable is needed
 
